@@ -5,4 +5,5 @@ docker build . -t go
 docker run --name go   -p 8181:8080   --env-file env.list   -d  go
 ## env.list
 GITLAB_URL=https://Ссылка_на_гит
+
 GITLAB_TOKEN="Токен с доступом API"
