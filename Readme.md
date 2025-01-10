@@ -7,3 +7,8 @@ docker run --name go   -p 8181:8080   --env-file env.list   -d  go
 GITLAB_URL=https://Ссылка_на_гит
 
 GITLAB_TOKEN="Токен с доступом API"
+
+## использование
+Прописать адрес:
+http://[IP]:8181/webhook
+в вебхуках проекта сонар
